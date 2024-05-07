@@ -6,7 +6,7 @@ public class Main {
 
         if (age <= 3) {
             ret = 100;
-        } else if (age <= 9) {
+        } else if (age >= 4 && age <= 9) {
             ret = 300;
         } else {
             ret = 500;
