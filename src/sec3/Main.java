@@ -13,5 +13,8 @@ public class Main {
         String str1 = "Hello";
         System.out.println(str1 + age + pi);
         System.out.println(str1 + (age + pi));
+
+        char char1  = 'A';
+        System.out.println(char1);
     }
 }
