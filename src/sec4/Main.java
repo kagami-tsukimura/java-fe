@@ -16,6 +16,7 @@ public class Main {
 
         int value;
         value = 10;
+        value = 3;
 
         if(value == 0 || value == 100) {
             System.out.println("value = 0 or 100");
