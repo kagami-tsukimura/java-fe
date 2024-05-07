@@ -14,9 +14,12 @@ public class Main {
         final int a = 0;
         // a = 1;
 
-        int num1 = 123;
-        int num2 = 999;
-        int result = num1 + num2;
+        int num1 = 900;
+        int num2 = 123;
+        int sum = num1 + num2;
+        int sub = num1 - num2;
+        int multi = num1 * num2;
+        double divide = num1 / num2;
         
         
         System.out.println("年齢は" + age + "歳です。");
@@ -26,6 +29,9 @@ public class Main {
         System.out.println(str1 + (age + pi));
         System.out.println(char1);
         System.out.println(a);
-        System.out.println("num1 + num2 = " + result);
+        System.out.println("num1 + num2 = " + sum);
+        System.out.println("num1 - num2 = " + sub);
+        System.out.println("num1 * num2 = " + multi);
+        System.out.println("num1 / num2 = " + divide);
     }
 }
