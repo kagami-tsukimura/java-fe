@@ -6,8 +6,7 @@ public class Main {
 
         if (age <= 3) {
             ret = 100;
-        // ageが4~9歳の間の場合
-        } else if (age >= 4 && age <= 9) {
+        } else if (age <= 9) {
             ret = 300;
         } else {
             ret = 500;
