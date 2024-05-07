@@ -12,5 +12,16 @@ public class Main {
             ret = 500;
         }
         System.out.println("ret = " + ret);
+
+
+        int value;
+        value = 10;
+        value = 100;
+
+        if(value == 0 || value == 100) {
+            System.out.println("value = 0 or 100");
+        } else {
+            System.out.println("value = " + value);
+        }
     }
 }
