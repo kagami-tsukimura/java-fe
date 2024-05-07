@@ -14,7 +14,7 @@ public class Main {
         final int a = 0;
         // a = 1;
 
-        System.out.println(age);
+        System.out.println("年齢は" + age + "歳です。");
         System.out.println(pi);
         System.out.println(age + pi);
         System.out.println(str1 + age + pi);
