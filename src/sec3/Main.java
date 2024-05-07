@@ -14,12 +14,13 @@ public class Main {
         final int a = 0;
         // a = 1;
 
-        int num1 = 900;
-        int num2 = 123;
+        int num1 = 100;
+        int num2 = 3;
         int sum = num1 + num2;
         int sub = num1 - num2;
         int multi = num1 * num2;
         double divide = (double) num1 / num2;
+        int mod = num1 % num2;
         
         
         System.out.println("年齢は" + age + "歳です。");
@@ -33,5 +34,6 @@ public class Main {
         System.out.println("num1 - num2 = " + sub);
         System.out.println("num1 * num2 = " + multi);
         System.out.println("num1 / num2 = " + divide);
+        System.out.println("num1 % num2 = " + mod);
     }
 }
