@@ -16,12 +16,13 @@ public class Main {
 
         int value;
         value = 10;
-        value = 100;
 
         if(value == 0 || value == 100) {
             System.out.println("value = 0 or 100");
+        } else if(value != 10) {
+            System.out.println("value != 10");
         } else {
-            System.out.println("value = " + value);
+            System.out.println("value = 10");
         }
     }
 }
