@@ -20,5 +20,10 @@ public class Main {
         // char: 文字型
         char char1  = 'A';
         System.out.println(char1);
+
+        // final: 定数
+        final int a = 0;
+        // a = 1;
+        System.out.println(a);
     }
 }
