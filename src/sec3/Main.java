@@ -20,6 +20,7 @@ public class Main {
         int sub = num1 - num2;
         int multi = num1 * num2;
         double divide = (double) num1 / num2;
+        String formattedDivide = String.format("%.3f", divide);
         int mod = num1 % num2;
         
         
@@ -34,6 +35,7 @@ public class Main {
         System.out.println("num1 - num2 = " + sub);
         System.out.println("num1 * num2 = " + multi);
         System.out.println("num1 / num2 = " + divide);
+        System.out.println("num1 / num2 (%.3f)= " + formattedDivide);
         System.out.println("num1 % num2 = " + mod);
     }
 }
