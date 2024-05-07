@@ -19,7 +19,7 @@ public class Main {
         int sum = num1 + num2;
         int sub = num1 - num2;
         int multi = num1 * num2;
-        double divide = num1 / num2;
+        double divide = (double) num1 / num2;
         
         
         System.out.println("年齢は" + age + "歳です。");
