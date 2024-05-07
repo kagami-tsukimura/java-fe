@@ -14,6 +14,11 @@ public class Main {
         final int a = 0;
         // a = 1;
 
+        int num1 = 123;
+        int num2 = 999;
+        int result = num1 + num2;
+        
+        
         System.out.println("年齢は" + age + "歳です。");
         System.out.println(pi);
         System.out.println(age + pi);
@@ -21,5 +26,6 @@ public class Main {
         System.out.println(str1 + (age + pi));
         System.out.println(char1);
         System.out.println(a);
+        System.out.println("num1 + num2 = " + result);
     }
 }
