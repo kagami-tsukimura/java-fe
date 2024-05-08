@@ -33,5 +33,15 @@ public class Main {
 
         System.out.println("array = " + array[0] + ", " + array[1] + ", " + array[2] + ", " + array[3] + ", " + array[4]);
 
+        int[][] arrayInts = new int[][]{
+            {3, 0, 0, 0, 0},
+            {0, 2, 2, 0, 0},
+            {0, 0, 0, 1, 3},
+            {0, 0, 0, 2, 0},
+            {0, 0, 0, 0, 1},
+        };
+
+        System.out.println(arrayInts[0][0]);
+
     }
 }
