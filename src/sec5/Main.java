@@ -63,6 +63,24 @@ public class Main {
         String[] name = new String[] {"田中", "山田", "高橋", "木村"};
         System.out.println(name[0] + ", " + name[1] + ", " + name[2] + ", " + name[3]);
 
+        int[][] tail = new int[3][4];
+        tail[0][0] = 173;
+        tail[0][1] = 169;
+        tail[0][2] = 176;
+        tail[0][3] = 182;
+        tail[1][0] = 170;
+        tail[1][1] = 171;
+        tail[1][2] = 175;
+        tail[1][3] = 172;
+        tail[2][0] = 180;
+        tail[2][1] = 168;
+        tail[2][2] = 167;
+        tail[2][3] = 173;
+
+        System.out.println(tail[0][0] + "," + tail[0][1] + "," + tail[0][2] + "," + tail[0][3]);
+        System.out.println(tail[1][0] + "," + tail[1][1] + "," + tail[1][2] + "," + tail[1][3]);
+        System.out.println(tail[2][0] + "," + tail[2][1] + "," + tail[2][2] + "," + tail[2][3]);
+
 
     }
 }
