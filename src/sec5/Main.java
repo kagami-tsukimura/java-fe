@@ -23,5 +23,15 @@ public class Main {
         int tmp;
 
         System.out.println("array = " + array[0] + ", " + array[1] + ", " + array[2] + ", " + array[3] + ", " + array[4]);
+
+        for (left = 0; left < array.length / 2; left++) {
+            right = array.length - 1 - left;
+            tmp = array[right];
+            array[right] = array[left];
+            array[left] = tmp;
+        }
+
+        System.out.println("array = " + array[0] + ", " + array[1] + ", " + array[2] + ", " + array[3] + ", " + array[4]);
+
     }
 }
