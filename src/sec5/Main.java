@@ -80,7 +80,5 @@ public class Main {
         System.out.println(tail[0][0] + "," + tail[0][1] + "," + tail[0][2] + "," + tail[0][3]);
         System.out.println(tail[1][0] + "," + tail[1][1] + "," + tail[1][2] + "," + tail[1][3]);
         System.out.println(tail[2][0] + "," + tail[2][1] + "," + tail[2][2] + "," + tail[2][3]);
-
-
     }
 }
