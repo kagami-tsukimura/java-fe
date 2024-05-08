@@ -43,5 +43,26 @@ public class Main {
 
         System.out.println(arrayInts[0][0]);
 
+        int[] age = new int[10];
+        age[0] = 14;
+        age[1] = 21;
+        age[2] = 22;
+        age[3] = 19;
+        age[4] = 31;
+        age[5] = 18;
+        age[6] = 20;
+        age[7] = 21;
+        age[8] = 33;
+        age[9] = 18;
+
+                
+        int res = age[1] + age[8];
+        
+        System.out.println(res);
+
+        String[] name = new String[] {"田中", "山田", "高橋", "木村"};
+        System.out.println(name[0] + ", " + name[1] + ", " + name[2] + ", " + name[3]);
+
+
     }
 }
