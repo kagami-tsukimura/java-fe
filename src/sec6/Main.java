@@ -19,10 +19,11 @@ public class Main {
             array[left] = tmp;
         }
 
+        System.out.println("");
         for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
         }
-        int n = 1;
+        int n = 11;
         while(n <= 10) {
             System.out.println(n);
             n++;
