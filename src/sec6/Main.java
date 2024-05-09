@@ -37,8 +37,8 @@ public class Main {
         System.out.println("-----");
         int ary[] = new int[] {1, 2, 3, 4, 5};
 
-        for (int i = 0; i < ary.length; i++) {
-            System.out.println(ary[i]);
+        for (int value: ary) {
+            System.out.println(value);
         }
 
     }
