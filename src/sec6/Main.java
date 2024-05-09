@@ -2,43 +2,20 @@ package sec6;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-
-        for (int num = 10; num > 0; num--) {
-            System.out.println(num);
+        int[] A = new int[] {100, 0, 15, 22, 69, 985, 47};
+        
+        for(int i = 0; i < A.length -1 ; i++) {
+            for(int j = A.length; j < i+1 ; j--){
+                if(A[j] < A[j-1]){
+                    int w = A[j];
+                    A[j] = A[j-1];
+                    A[j-1] = w;
+                }
+            }
         }
-
-        int[] array = new int[] {1, 2, 3, 4, 5};
-        int right = 0;
-        int tmp = 0;
-        System.out.println(array[0] + ", " + array[1] + ", " + array[2] + ", " + array[3] + ", " + array[4]);
-        for (int left = 0; left <= (array.length -1) / 2; left++) {
-            right = array.length - 1 - left;
-            tmp = array[right];
-            array[right] = array[left];
-            array[left] = tmp;
-        }
-
-        System.out.println("-----");
-        for (int i = 0; i < array.length; i++) {
-            System.out.println(array[i]);
-        }
-        int n = 11;
-        while(n <= 10) {
-            System.out.println(n);
-            n++;
-        }
-
-        do{
-            System.out.println(n);
-            n++;
-        }while(n <= 10);
-
-        System.out.println("-----");
-        int ary[] = new int[] {1, 2, 3, 4, 5};
-
-        for (int value: ary) {
-            System.out.println(value);
+        
+        for(int i = 0; i < A.length -1 ; i++) {
+            System.out.println(A[i]);
         }
 
     }
