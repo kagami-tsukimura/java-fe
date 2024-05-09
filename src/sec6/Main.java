@@ -18,6 +18,9 @@ public class Main {
             array[right] = array[left];
             array[left] = tmp;
         }
-        System.out.println(array[0] + ", " + array[1] + ", " + array[2] + ", " + array[3] + ", " + array[4]);
+
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+        }
     }
 }
