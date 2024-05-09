@@ -34,6 +34,7 @@ public class Main {
             n++;
         }while(n <= 10);
 
+        System.out.println("-----");
         int ary[] = new int[] {1, 2, 3, 4, 5};
 
         for (int i = 0; i < ary.length; i++) {
