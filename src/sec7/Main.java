@@ -5,12 +5,10 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello World!");
-        String msg = "Hello";
         String msg2 = "World";
         Random rand = new Random();
-        int num = rand.nextInt(10) + 100;
         int num2 = rand.nextInt(10) + 100;
-        function(msg, num);
+        function("Hello", rand.nextInt(10) + 100);
         function(msg2, num2);
     }
 
