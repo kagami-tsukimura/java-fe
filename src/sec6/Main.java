@@ -23,7 +23,7 @@ public class Main {
             System.out.println(array[i]);
         }
         int n = 1;
-        while(n < 10) {
+        while(n <= 10) {
             System.out.println(n);
             n++;
         }
