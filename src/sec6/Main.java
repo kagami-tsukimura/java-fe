@@ -27,5 +27,10 @@ public class Main {
             System.out.println(n);
             n++;
         }
+
+        do{
+            System.out.println(n);
+            n++;
+        }while(n <= 10);
     }
 }
