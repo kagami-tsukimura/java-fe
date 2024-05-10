@@ -12,7 +12,8 @@ public class Bubble {
         for(int i = 0; i < A.length ; i++) {
             for(int j = A.length -1; j >= i+1 ; j--){
                 if(A[j] < A[j-1]){
-                    replace(A, j);
+                    // 要素の入れ替え
+                    A =replace(A, j);
                 }
             }
         }
