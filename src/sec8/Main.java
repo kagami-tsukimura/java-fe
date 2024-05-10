@@ -11,14 +11,11 @@ public class Main {
         deleteFile();
         drawHeader();
         Circle circle = new Circle();
-        // Square square = new Square();
-        circle.top = 100;
-        circle.left = 500;
-        circle.height = 500;
-        circle.width = 200;
-        circle.color = "yellow";
+        circle.defineCircle(100, 100, 100, 100, "green");
         circle.draw();
-        // square.draw();
+        Square square = new Square();
+        square.defineSquare(100, 100, 100, 100, "blue");
+        square.draw();
         drawFooter();
     }
 
