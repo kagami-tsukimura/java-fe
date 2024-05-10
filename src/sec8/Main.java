@@ -5,6 +5,8 @@ public class Main {
         run();
         Log log = new Log();
         log.run();
+        int result = log.calc(64);
+        System.out.println(result);
     }
 
     private static void run() {
