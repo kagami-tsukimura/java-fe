@@ -3,9 +3,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class Square {
-    int top, left, height, width;
-    String color;
+public class Square extends Shape {
 
     public void defineSquare(int topValue, int leftValue, int heightValue, int widthValue, String colorValue) {
         top = topValue;

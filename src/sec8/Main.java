@@ -19,7 +19,7 @@ public class Main {
         Circle circle = new Circle();
         circle.defineCircle(250, 300, 200, 100, "red");
         circle.draw();
-        
+
         // Create Circle2
         Circle circle2 = new Circle();
         circle2.defineCircle(250, 100, 50, 50, "yellow");

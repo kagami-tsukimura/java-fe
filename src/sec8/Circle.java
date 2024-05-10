@@ -3,9 +3,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class Circle {
-    int top, left, height, width;
-    String color;
+public class Circle extends Shape {
 
     public void defineCircle(int topValue, int leftValue, int heightValue, int widthValue, String colorValue) {
         top = topValue;
