@@ -2,7 +2,7 @@ package sec7;
 
 public class Branch {
     public static void main(String[] args) {
-        int age = 10;
+        int age = 5;
         System.out.println(fee(age));
     }
 
