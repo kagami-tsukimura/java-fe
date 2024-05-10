@@ -6,6 +6,6 @@ public class Main {
     }
 
     private static void run() {
-        System.out.println("Hello World!");
+        System.out.println("Hello World_Main!");
     }
 }
