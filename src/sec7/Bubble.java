@@ -12,12 +12,18 @@ public class Bubble {
         for(int i = 0; i < A.length ; i++) {
             for(int j = A.length -1; j >= i+1 ; j--){
                 if(A[j] < A[j-1]){
-                    int w = A[j];
-                    A[j] = A[j-1];
-                    A[j-1] = w;
+                    replace(A, j);
                 }
             }
         }
+        return A;
+    }
+
+    public static int[] replace(int[] A, int j) {
+        int w = A[j];
+        A[j] = A[j-1];
+        A[j-1] = w;
+
         return A;
     }
 
