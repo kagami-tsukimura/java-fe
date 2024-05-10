@@ -13,6 +13,7 @@ public class Main {
         Circle circle = new Circle();
         Square square = new Square();
         circle.draw();
+        circle.top = 100;
         square.draw();
         drawFooter();
     }
