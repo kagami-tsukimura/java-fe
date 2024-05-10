@@ -1,13 +1,16 @@
 package sec7;
 
-public class Branch {
+public class BranchGlobal {
+
+    static int ret;
+
     public static void main(String[] args) {
         int age = 10;
-        System.out.println(fee(age));
+        fee(age);
+        System.out.println(ret);
     }
 
-    private static int fee(int age) {
-        int ret;
+    private static void fee(int age) {
         if(age <= 3) {
             ret = 100;
         }else if(age <= 9) {
@@ -15,7 +18,6 @@ public class Branch {
         }else {
             ret = 500;
         }
-        return ret;
     }
     
 }
