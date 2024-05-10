@@ -17,7 +17,16 @@ public class Exam1 {
     private static int[][] transformSparseMatrix(int[][] matrix) {
         int i, j;
         int [][] sparseMatrix;
-        sparseMatrix = new int[999][99];
+        sparseMatrix = new int[3][999];
+
+        for(i = 1; i <= matrix.length; i++) {
+            for(j = 1; j <= matrix[0].length; j++) {
+                // if(matrix[i][j] != 0) {
+                //     sparseMatrix[1] = i;
+                //     sparseMatrix[2] = j;
+                //     sparseMatrix[3] = matrix[i][j];
+            }
+        }
 
         return sparseMatrix;
         
