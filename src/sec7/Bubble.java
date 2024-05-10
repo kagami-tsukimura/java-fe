@@ -20,6 +20,13 @@ public class Bubble {
         return A;
     }
 
+    /**
+     * Replaces the element at index j in the given array with its neighbor on the right.
+     *
+     * @param  A  the array in which the replacement is to be done
+     * @param  j  the index of the element to be replaced
+     * @return    the modified array after the replacement
+     */
     public static int[] replace(int[] A, int j) {
         int w = A[j];
         A[j] = A[j-1];
