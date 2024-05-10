@@ -8,12 +8,13 @@ public class Recursive {
     }
 
     private static int factorial(int num) {
-        int result = num;
-        for(int i = num; i > 1 ; i --){
-            result *= i-1;
+        if(num > 0) {
+            return num * factorial(num - 1);
         }
-
-        return result;
+        if(num == 0) {
+            return 1;
+        }
+        return 0;
     }
 }
 
