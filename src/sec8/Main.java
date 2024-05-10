@@ -14,7 +14,7 @@ public class Main {
         circle.defineCircle(100, 100, 100, 100, "green");
         circle.draw();
         Square square = new Square();
-        square.defineSquare(100, 100, 100, 100, "blue");
+        square.defineSquare(100, 100, 100, 200, "blue");
         square.draw();
         drawFooter();
     }
