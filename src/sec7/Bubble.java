@@ -8,6 +8,12 @@ public class Bubble {
         arrayPrint(A);
     }
 
+    /**
+     * Sorts an array of integers using the bubble sort algorithm.
+     *
+     * @param  A  the array to be sorted
+     * @return    the sorted array
+     */
     public static int[] bubbleSort(int[] A) {
         for(int i = 0; i < A.length ; i++) {
             for(int j = A.length -1; j >= i+1 ; j--){
