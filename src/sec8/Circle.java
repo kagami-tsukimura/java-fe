@@ -8,7 +8,7 @@ public class Circle {
     String color;
 
     public void draw() {
-        String htmlBody = "<ellipse cx=400 cy=300 rx=200 ry=100 fill=blue />";
+        String htmlBody = "<ellipse cx=" + left + " cy=" + top + " rx=" + width + " ry=" + height + " fill=" + color + " />";
         execute(htmlBody);
     }
 
