@@ -10,12 +10,26 @@ public class Main {
     public static void main(String[] args) {
         deleteFile();
         drawHeader();
-        Circle circle = new Circle();
-        circle.defineCircle(250, 300, 200, 100, "red");
+        // Create Square
         Square square = new Square();
         square.defineSquare(200, 100, 100, 400, "blue");
         square.draw();
+
+        // Create Circle
+        Circle circle = new Circle();
+        circle.defineCircle(250, 300, 200, 100, "red");
         circle.draw();
+        
+        // Create Circle2
+        Circle circle2 = new Circle();
+        circle2.defineCircle(250, 100, 50, 50, "yellow");
+        circle2.draw();
+
+        // Create Circle3
+        Circle circle3 = new Circle();
+        circle3.defineCircle(250, 500, 50, 50, "yellow");
+        circle3.draw();
+
         drawFooter();
     }
 
