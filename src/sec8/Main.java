@@ -8,6 +8,11 @@ import java.nio.file.Paths;
 
 public class Main {
     public static void main(String[] args) {
+        deleteFile();
+        drawHeader();
+        new Square().draw();
+        new Circle().draw();
+        drawFooter();
     }
 
     private static void deleteFile(){
