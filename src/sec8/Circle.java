@@ -4,6 +4,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class Circle {
+    int top, left, height, width;
+    String color;
+
     public void draw() {
         String htmlBody = "<ellipse cx=400 cy=300 rx=200 ry=100 fill=blue />";
         execute(htmlBody);
