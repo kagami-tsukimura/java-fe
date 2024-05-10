@@ -11,7 +11,7 @@ public class Exam1 {
             {0, 0, 0, 0, 1},
         };
         int[][] sparseMatrix = transformSparseMatrix(array);
-        System.out.println(sparseMatrix);
+        System.out.println(sparseMatrix[0][0] + ", " + sparseMatrix[1][0] + ", " + sparseMatrix[2][0]);
     }
 
     private static int[][] transformSparseMatrix(int[][] matrix) {
