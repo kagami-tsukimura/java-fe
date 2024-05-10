@@ -4,6 +4,7 @@ public class Bubble {
     public static void main(String[] args) {
         int[] A = new int[] {100, 0, 15, 22, 69, 985, 47};
         
+        // 配列処理はreturnしなくても反映される
         bubbleSort(A);
         arrayPrint(A);
     }
@@ -15,6 +16,7 @@ public class Bubble {
      * @return    the sorted array
      */
     public static void bubbleSort(int[] A) {
+        // 配列処理はreturnしなくても反映される
         for(int i = 0; i < A.length ; i++) {
             for(int j = A.length -1; j >= i+1 ; j--){
                 if(A[j] < A[j-1]){
@@ -33,6 +35,7 @@ public class Bubble {
      * @return    the modified array after the replacement
      */
     public static void replace(int[] A, int j) {
+        // 配列処理はreturnしなくても反映される
         int w = A[j];
         A[j] = A[j-1];
         A[j-1] = w;
