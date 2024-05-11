@@ -4,15 +4,15 @@ public class ExSquare {
     static int height;
     static int width;
     
-    protected static void setHeight(int heightValue) {
+    protected void setHeight(int heightValue) {
         height = heightValue;
     }
     
-    protected static void setWidth(int widthValue) {
+    protected void setWidth(int widthValue) {
         width = widthValue;
     }
     
-    protected static int getArea() {
+    protected int getArea() {
         return height * width;
     }
 }
