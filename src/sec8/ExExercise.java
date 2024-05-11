@@ -9,5 +9,7 @@ public class ExExercise {
         circle.setRadius(10);
         square.setHeight(32);
         square.setWidth(12);
+        triangle.setBottom(20);
+        triangle.setHeight(8);
     }
 }
