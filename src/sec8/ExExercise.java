@@ -6,5 +6,8 @@ public class ExExercise {
         ExSquare square = new ExSquare();
         ExTriangle triangle = new ExTriangle();
         
+        circle.setRadius(10);
+        square.setHeight(32);
+        square.setWidth(12);
     }
 }

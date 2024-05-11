@@ -4,15 +4,15 @@ public class ExTriangle {
     static int height;
     static int bottom;
 
-    private static void setHeight(int heightValue) {
+    protected static void setHeight(int heightValue) {
         height = heightValue;
     }
 
-    private static void setBottom(int bottomValue) {
+    protected static void setBottom(int bottomValue) {
         bottom = bottomValue;
     }
 
-    private static int getArea() {
+    protected static int getArea() {
         return bottom * height / 2;
     }
 }
