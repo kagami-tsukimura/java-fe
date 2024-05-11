@@ -2,6 +2,10 @@ package sec8;
 
 public class Circle extends Shape {
 
+    public Circle(String msg) {
+        System.out.println("Create: " + msg);
+    }
+
     public void defineCircle(int topValue, int leftValue, int heightValue, int widthValue, String colorValue) {
         top = topValue;
         left = leftValue;

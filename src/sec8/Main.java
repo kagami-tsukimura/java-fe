@@ -16,17 +16,17 @@ public class Main {
         square.draw();
 
         // Create Circle
-        Circle circle = new Circle();
+        Circle circle = new Circle("circle");
         circle.defineCircle(250, 300, 200, 100, "red");
         circle.draw();
 
         // Create Circle2
-        Circle circle2 = new Circle();
+        Circle circle2 = new Circle("circle2");
         circle2.defineCircle(250, 100, 50, 50, "yellow");
         circle2.draw();
 
         // Create Circle3
-        Circle circle3 = new Circle();
+        Circle circle3 = new Circle("circle3");
         circle3.defineCircle(250, 500, 50, 50, "yellow");
         circle3.draw();
 
