@@ -5,7 +5,7 @@ public class ExExercise {
         ExCircle circle = new ExCircle();
         ExSquare square = new ExSquare();
         ExTriangle triangle = new ExTriangle();
-        
+
         // define
         circle.setRadius(10);
         square.setHeight(32);
@@ -20,6 +20,6 @@ public class ExExercise {
             result += area[i];
         }
 
-        System.out.println("面積は" + result + "です。");
+        System.out.print("面積は" + result + "です。");
     }
 }
