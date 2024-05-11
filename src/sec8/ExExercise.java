@@ -20,5 +20,6 @@ public class ExExercise {
             result += area[i];
         }
 
+        System.out.println("面積は" + result + "です。");
     }
 }
