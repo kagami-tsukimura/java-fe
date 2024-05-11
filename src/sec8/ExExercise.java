@@ -16,6 +16,9 @@ public class ExExercise {
         double[] area = new double[] {circle.getArea(), square.getArea(), triangle.getArea()};
         double result = 0;
 
-        
+        for(int i = 0; i < area.length; i++) {
+            result += area[i];
+        }
+
     }
 }
