@@ -12,5 +12,10 @@ public class ExExercise {
         square.setWidth(12);
         triangle.setBottom(20);
         triangle.setHeight(8);
+
+        double[] area = new double[] {circle.getArea(), square.getArea(), triangle.getArea()};
+        double result = 0;
+
+        
     }
 }
