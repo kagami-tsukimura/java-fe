@@ -8,7 +8,7 @@ public class Shape {
     int top, left, height, width;
     String color;
 
-    public void execute(String htmlBody) {
+    protected void execute(String htmlBody) {
         try {
             File file = new File("shape.html");
             FileWriter filewriter = new FileWriter(file, true);
